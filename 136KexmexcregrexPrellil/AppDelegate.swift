@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  136KexmexcregrexPrellil
 //
-//  Created by Roman on 4/14/26.
-//
+
 
 import UIKit
 
