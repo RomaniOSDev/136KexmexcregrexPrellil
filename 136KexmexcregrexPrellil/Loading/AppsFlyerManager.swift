@@ -10,7 +10,7 @@ import Foundation
 import AppsFlyerLib
 
 extension Notification.Name {
-    static let appsFlyerConversionDataReady = Notification.Name("appsFlyerConversionDataReady")
+    static let appsFlyerConversionDataReady = Notification.Name(LoadingScrambledLine.appsFlyerPipelineReadyToken)
 }
 
 /// Ключ для сохранения строки с данными конверсии (для отправки на сервер)

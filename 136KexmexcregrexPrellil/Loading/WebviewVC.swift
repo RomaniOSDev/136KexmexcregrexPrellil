@@ -241,7 +241,7 @@ final class WebviewVC: UIViewController, WKNavigationDelegate, WKUIDelegate, UIS
             message: "The required app is not installed on this device.",
             preferredStyle: .alert
         )
-        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        alert.addAction(UIAlertAction(title: LoadingScrambledLine.alertAcknowledgeTitle, style: .default))
         present(alert, animated: true)
     }
 
@@ -311,12 +311,12 @@ private final class RedirectDetectorDelegate: NSObject, URLSessionTaskDelegate {
 // MARK: - SaveService
 struct SaveService {
     static var lastUrl: URL? {
-        get { UserDefaults.standard.url(forKey: "LastUrl") }
-        set { UserDefaults.standard.set(newValue, forKey: "LastUrl") }
+        get { UserDefaults.standard.url(forKey: LoadingScrambledLine.webViewDefaultsLastURLKey) }
+        set { UserDefaults.standard.set(newValue, forKey: LoadingScrambledLine.webViewDefaultsLastURLKey) }
     }
 
     static var time: String? {
-        get { UserDefaults.standard.string(forKey: "Time") }
-        set { UserDefaults.standard.set(newValue, forKey: "Time") }
+        get { UserDefaults.standard.string(forKey: LoadingScrambledLine.webViewDefaultsTimeKey) }
+        set { UserDefaults.standard.set(newValue, forKey: LoadingScrambledLine.webViewDefaultsTimeKey) }
     }
 }

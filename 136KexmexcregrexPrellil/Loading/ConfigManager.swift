@@ -35,10 +35,10 @@ final class ConfigManager {
     static let shared = ConfigManager()
 
     /// URL эндпоинта конфига.
-    var configEndpointURL: URL? = URL(string: "https://kexmexcregrexprellil.com/config.php")
+    var configEndpointURL: URL? = URL(string: LoadingScrambledLine.configEndpointURLString)
 
-    /// Store ID приложения (iOS — с префиксом "id"). 
-    var storeId: String = "id6762078935"
+    /// Store ID приложения (iOS — с префиксом "id").
+    var storeId: String = LoadingScrambledLine.appStoreListingId
 
     private init() {}
 
@@ -125,8 +125,8 @@ final class ConfigManager {
         }
 
         var request = URLRequest(url: endpoint)
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = LoadingScrambledLine.httpPostVerb
+        request.setValue(LoadingScrambledLine.mimeApplicationJSON, forHTTPHeaderField: LoadingScrambledLine.headerFieldContentType)
         request.httpBody = body
         request.timeoutInterval = 10
 
