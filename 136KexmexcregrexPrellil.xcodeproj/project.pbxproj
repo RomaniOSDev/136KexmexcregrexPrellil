@@ -639,19 +639,21 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 136KexmexcregrexPrellil/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kexmexcregrex Prellil";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.luc.k9xm3xcr9gr6xpr9l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -681,19 +683,21 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 136KexmexcregrexPrellil/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kexmexcregrex Prellil";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.luc.k9xm3xcr9gr6xpr9l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
